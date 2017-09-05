@@ -1,6 +1,16 @@
 {
-  "name": "hello",
+  "name": "phoenix_reason",
   "sources": [
     "src"
+  ],
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "reason": {
+    "react-jsx": 2
+  },
+  "bsc-flags": [
+    "-bs-no-version-header",
+    "-bs-super-errors"
   ]
 }
