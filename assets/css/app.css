@@ -1,1 +1,49 @@
 /* This file is for your main application css. */
+
+.reason-root {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-input__text,
+.todo-input__submit {
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.todo-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.tile {
+  line-height: 3rem;
+  font-size: 2rem;
+  text-align: center;
+  font-family: monospace;
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+  margin-top: 0.5rem;
+  border-radius: 2px;
+  transition: 0.25s ease;
+}
+
+.tile:hover {
+  background-color: black;
+  color: white;
+}
+
+.tile__completed {
+  text-decoration: line-through;
+}

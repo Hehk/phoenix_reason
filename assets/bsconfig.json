@@ -4,7 +4,8 @@
     "src"
   ],
   "bs-dependencies": [
-    "reason-react"
+    "reason-react",
+    "bucklescript-phx"
   ],
   "reason": {
     "react-jsx": 2
